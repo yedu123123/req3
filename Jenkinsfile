@@ -1,7 +1,6 @@
-pipeline {
+ pipeline {
   environment {
-    imagename = "chillagundla/my-jenkinsdocker-website"
-
+    imagename = "chillagundla/my-jenkins-website"
     registryCredential = 'dockerCredentials'
     dockerImage = ''
   }
