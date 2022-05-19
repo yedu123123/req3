@@ -17,5 +17,5 @@ def upload_image():
 
 @app.route("/download-file/<string:filename>",methods=["GET"])
 def getFileToDownload(filename):
-      client.download_file('rockybucket199',filename,"c:\\new-downloads\\"+filename)
+      client.download_file('yedu_bucket',filename,"c:\\new-downloads\\"+filename)
       return {"message ": "check the download folder"}, 200
